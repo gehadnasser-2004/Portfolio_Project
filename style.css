@@ -19,25 +19,27 @@
     text-decoration: none;
 }
 .nav-text{
+    padding-left: 10px;
     padding-top: 20px;
     display: flex;
     justify-content: space-around;
+    gap:250px;
    
 }
 .navcontainer a:hover{
     color: rgb(238, 15, 145);
 }
-ul{
+.off-screen-menu ul{
     list-style-type: none;
 }
-a {
+.off-screen-menu a {
     color: white;
     text-decoration: none;
 }
-a:visited {
+.off-screen-menur a:visited {
     color: white;
 }
-a:hover {
+.off-screen-menu a:hover {
     /* color: #6F86FF; */
     color:  rgb(238, 15, 145);
 }
