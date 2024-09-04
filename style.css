@@ -300,4 +300,19 @@ margin-top: 70px;
     #portfolio{
         height: 1500px;
     }
+    .flex-container{
+        display: block;
+        
+    }
+    .imgAbout{
+        width: 80%;
+        margin: auto;
+    }
+    #about{
+        height: 900px;
+    }
+    #contact{
+        height: 800px;
+    }
+    
 }
