@@ -27,7 +27,7 @@
 .navcontainer a:hover{
     color: rgb(238, 15, 145);
 }
-.home{
+#home{
     
     display: flex;
     justify-content: center;
@@ -40,11 +40,11 @@
     gap: 20px;
     
 }
-.home h1{
+#home h1{
     font-size: 32px;
     display: inline;
 }
-.home img{
+#home img{
     width: 150px;
     border-radius: 50%;
 }
@@ -91,7 +91,7 @@
 }
 #portfolio{
     padding-top: 70px;
-    height: 800px;
+    height: 850px;
     
     width: 100%;
     background-color:#1F1F1F;
@@ -287,6 +287,7 @@ margin-top: 70px;
 .rrr{
     width: 40px;
 }
+
 @media(max-width:700px){
     .grid{
         grid-template-columns: auto;
