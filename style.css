@@ -414,7 +414,7 @@ margin-top: 70px;
         height: 1000px;
     }
     #contact{
-        height: 800px;
+        height: 670px;
     }
     .nav-bar{
         visibility: hidden;
@@ -425,5 +425,8 @@ margin-top: 70px;
     .grid-container{
         grid-template-columns: 1fr 1fr;
     }
-    
+    .grid-con{
+        grid-template-columns:0.1fr 7fr 0.1fr ;
+    }
+  
 }
