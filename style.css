@@ -358,10 +358,10 @@ margin-top: 70px;
 .grid-container{
     font-size: 14px;
     display: grid;
-    grid-template-columns:0.125fr 0.125fr 0.125fr 0.15fr  0.125fr 0.15fr  0.125fr;
+    grid-template-columns:1fr 1fr 1fr 1fr;
     margin-top: 30px;
     text-align: left;
-   
+    gap:10px;
     font-stretch: extra-expanded;
     
     /* margin-left: 50px; */
@@ -411,7 +411,7 @@ margin-top: 70px;
         margin: auto;
     }
     #about{
-        height: 900px;
+        height: 1000px;
     }
     #contact{
         height: 800px;
@@ -422,4 +422,8 @@ margin-top: 70px;
     .menubar{
         visibility:visible;
     }
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    
 }
