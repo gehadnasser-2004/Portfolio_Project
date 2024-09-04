@@ -90,7 +90,9 @@ nav {
     height: 50px;
     width: 40px;
     margin-left: auto;
-    position: relative;
+    position: fixed;
+    right: 10px;
+    top: 5px;
 }
 .ham-menu span {
     height: 5px;
